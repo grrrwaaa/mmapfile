@@ -1,0 +1,29 @@
+{
+  "name": "mmapfile",
+  "version": "0.1.0",
+  "description": "Node.js addon to map files as shared memory buffers, for unix + windows",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grrrwaaa/mmapfile.git"
+  },
+  "keywords": [
+    "mmap",
+    "buffer",
+    "node.js"
+  ],
+  "author": "Graham Wakefield",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/grrrwaaa/mmapfile/issues"
+  },
+  "homepage": "https://github.com/grrrwaaa/mmapfile#readme",
+  "main": "mmapfile",
+  "scripts": {
+    "install": "node-gyp configure && node-gyp rebuild",
+    "test": "node ./test.js"
+  },
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.9.2"
+  }
+}
