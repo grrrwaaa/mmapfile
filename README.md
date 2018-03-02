@@ -7,7 +7,7 @@ Using mmap is fast and allows shared memory between processes.
 Usage:
 
 ```
-const mf = require('bindings')('mmapfile');
+const mf = require('mmapfile');
 
 // open a file for read/write & map to a Buffer
 let wb = mf.openSync("buf.txt", 8, "r+");		
