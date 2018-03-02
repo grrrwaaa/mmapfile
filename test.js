@@ -1,4 +1,4 @@
-const mf = require('bindings')('mmapfile');
+const mf = require('./index.js');
 const assert = require('assert');
 
 let bufname = "testbuf.tmp";		
